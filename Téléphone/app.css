@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(35,17,78);
+}
+.arriere{
+    position: fixed;
+    border: 2px solid #333;
+    height: 90%;
+    width: 23%;
+    top: 5%;
+    left: 36%;
+    border-radius: 40px;
+    background-color: #f4f4f4;
+    display: block;
+    box-shadow: #333;
+}
+.volume{
+    position: absolute;
+    border: 3px solid white;
+    top: 30%;
+    left: -2px;
+    height: 80px;
+    width: 2px;
+    background-color: rgb(231,230,230) ;
+    border-radius: 5px;
+    
+}
+.avant{
+    position: fixed;
+    border: 2px solid #333;
+    height: 90%;
+    width: 23%;
+    border-radius: 40px;
+    display: block;
+    background-color: #f4f4f4;
+    top: 5%;
+    left: 36.5%;
+    box-shadow: #333;
+
+}
+.ligne{
+    width: 50px;
+    position: absolute;
+    top: 3%;
+    left: 40%;
+    border: 3px solid #333;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+.doublePoint1{
+    border: 3px solid #333;
+    position: absolute;
+    width: 1px;
+    opacity: 0.8;
+    border-radius: 50%;
+    top: 2%;
+    left: 62%;
+}
+.doublePoint2{
+    border: 3px solid #333;
+    position: absolute;
+    width: 1px;
+    opacity: 0.8;
+    border-radius: 50%;
+    top: 4%;
+    left: 62%;
+}
+.point{
+    border: 3px solid #333;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+    top: 2.5%;
+    left: 70%;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+.avant h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+    opacity: 0.7;
+}
+.ecran{
+    position: absolute;
+    width: 80%;
+    height: 73%;
+    border: 2px solid #333;
+    left: 10%;
+    top: 15%;
+    border-radius: 5px;
+    background-color: rgb(96, 91, 250);
+    animation: screen 5s 1;
+}
+.ecran p{
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    font-size: 2.2em;
+    animation: sam reverse 8s infinite;
+}
+.bouton{
+    position: absolute;
+    border: 3px solid #333;
+    width: 20%;
+    height: 3%;
+    left: 38%;
+    top: 92%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+.bouton:hover{
+    background-color: rgb(121,120,120) ;
+}
+.accueil{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    left: 15%;
+    top: 92.5%;
+    background-color: aliceblue;
+    border: 2px solid #333;
+}
+.accueil2{
+    position: absolute;
+    width: 5.5%;
+    height: 1.5%;
+    top: 92%;
+    left: 16.5%;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+}
+.back{
+    position: absolute;
+    width: 5%;
+    height: 1%;
+    top: 92.9%;
+    left: 75%;
+    border-radius: 8px;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    border-bottom: 0.5px solid #333;
+
+}
+.back2{
+    position: absolute;
+    width: 5%;
+    height: 1.5%;
+    top: 92.4%;
+    left: 76%;
+    border-radius: 8px;
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    border-bottom: 0.5px solid #333;
+}
+.ecran:hover{
+    background-color: rgb(252,250,250);
+    border-radius: 0;
+}
+@keyframes screen{
+    0%{
+        background-color:#333;
+    }
+    20%{
+        background-color: rgb(121,120,120);
+    }
+    40%{
+        background-color: rgb(230,221,221);
+    }
+    60%{
+        background-color: rgb(204,149,149);
+    }
+    80%{
+        background-color: rgb(213,216,66);
+    }
+    100%{
+        background-color: rgb(27,57,122);
+    }
+}
+
+@keyframes sam{
+    0%{
+       color:#333;
+    }
+    20%{
+       color: rgb(121,120,120);
+    }
+    40%{
+        color: rgb(230,221,221);
+    }
+    60%{
+        color: rgb(204,149,149);
+    }
+    80%{
+        color: rgb(213,216,66);
+    }
+    100%{
+      color: rgb(27,57,122);
+    }
+}
